@@ -1,14 +1,7 @@
 # save dip switch setup
 device = input("Enter device's name >> ")
-dip_on = "a"
-double_check = "b"
-dip_on = input("Enter numbers that are on >> ")
-double_check = input("Enter numbers that are on again >> ")
-if dip_on != double_check:
-    ("Numbers don't match.")
-    quit()
-else:
-    pass
+dip_on = ""
+dip_on = input("Enter dip switches that are on >> ")
 dip1 = False
 dip2 = False
 dip3 = False
