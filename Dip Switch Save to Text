@@ -1,5 +1,5 @@
 # save dip switch setup
-device = input("Enter device this remote is for name>> ")
+device = input("Enter device's name >> ")
 dip_on = "a"
 double_check = "b"
 dip_on = input("Enter numbers that are on >> ")
