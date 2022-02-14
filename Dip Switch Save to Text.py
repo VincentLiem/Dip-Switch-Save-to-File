@@ -1,5 +1,6 @@
 # save dip switch setup to text file
 device = input("Enter device's name >> ")
+print("This program only works on devices with up to 10 switches.")
 dip_on = input("Enter dip switches that are on >> ")
 dip1 = False
 dip2 = False
