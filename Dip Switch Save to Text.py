@@ -1,4 +1,4 @@
-# save dip switch setup
+# save dip switch setup to text file
 device = input("Enter device's name >> ")
 dip_on = ""
 dip_on = input("Enter dip switches that are on >> ")
