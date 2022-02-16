@@ -47,3 +47,4 @@ with open(device + " Dip.txt", "w") as save:
     save.write("Dip 8: " + str(dip8) + "\n")
     save.write("Dip 9: " + str(dip9) + "\n")
     save.write("Dip 10: " + str(dip10) + "\n")
+save.close()
