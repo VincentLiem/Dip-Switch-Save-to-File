@@ -50,18 +50,19 @@ def SaveText():
             save.write('Dip 10: ' + str(dip10) + '\n')
         
 def SaveCSV():
-        with open(device + ' Dip.csv', 'w') as save:
+        with open(device + ' Dip.csv', 'w', newline='') as save:
             writer = csv.writer(save)
-            writer.writerow(['Dip1', dip1])
-            writer.writerow(['Dip2', dip2])
-            writer.writerow(['Dip3', dip3])
-            writer.writerow(['Dip4', dip4])
-            writer.writerow(['Dip5', dip5])
-            writer.writerow(['Dip6', dip6])
-            writer.writerow(['Dip7', dip7])
-            writer.writerow(['Dip8', dip8])
-            writer.writerow(['Dip9', dip9])
-            writer.writerow(['Dip10', dip10])
+            writer.writerow(['Dip Number', 'Status'])           
+            writer.writerow([1, dip1])
+            writer.writerow([2, dip2])
+            writer.writerow([3, dip3])
+            writer.writerow([4, dip4])
+            writer.writerow([5, dip5])
+            writer.writerow([6, dip6])
+            writer.writerow([7, dip7])
+            writer.writerow([8, dip8])
+            writer.writerow([9, dip9])
+            writer.writerow([10, dip10])
 
 save_format = input('Save as text, csv, or both? >> ')
 if save_format.lower() == 'text':
